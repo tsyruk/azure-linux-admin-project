@@ -36,13 +36,13 @@ This project demonstrates basic cloud and Linux administration skills by deployi
 
 ## Screenshots
 Azure VM Overview
-- <img width="1709" height="848" alt="image" src="https://github.com/user-attachments/assets/d95fca13-d0b0-4dfb-bc23-f8a2cb211a68" />
+<img width="1709" height="848" alt="image" src="https://github.com/user-attachments/assets/d95fca13-d0b0-4dfb-bc23-f8a2cb211a68" />
 Network Security Group rules
-- <img width="1374" height="669" alt="image" src="https://github.com/user-attachments/assets/a6611ebf-9598-4389-8d63-4be37a48204c" />
+  <img width="1374" height="669" alt="image" src="https://github.com/user-attachments/assets/a6611ebf-9598-4389-8d63-4be37a48204c" />
 SSH session + Nginx service status
-- <img width="1571" height="375" alt="image" src="https://github.com/user-attachments/assets/67ecb4be-54fb-4838-951f-ba64b7cfb61e" />
+  <img width="1571" height="375" alt="image" src="https://github.com/user-attachments/assets/67ecb4be-54fb-4838-951f-ba64b7cfb61e" />
 Live hosted webpage
-- <img width="1379" height="901" alt="image" src="https://github.com/user-attachments/assets/3c2112dd-3038-4ed2-89b4-8ad482a971bc" />
+  <img width="1379" height="901" alt="image" src="https://github.com/user-attachments/assets/3c2112dd-3038-4ed2-89b4-8ad482a971bc" />
 
 
 ## Learned
