@@ -67,32 +67,27 @@ SSH access was restricted to a trusted IP
 
 ## Troubleshooting
 
-Issue: Could not reach the hosted page
+## Issue: Could not reach the hosted page
 Possible causes:
-HTTP was not allowed in the NSG
+- HTTP was not allowed in the NSG
+- Nginx was not running 
+- the public IP address changed or was entered incorrectly
 
-Nginx was not running the public IP address changed or was entered incorrectly
-Issue: SSH connection failed
+## Issue: SSH connection failed
 Possible causes:
-wrong username
-incorrect SSH key path
-SSH source IP not allowed in the NSG
-VM not running
-What I Learned
-This project helped me practice:
-deploying and managing a Linux VM in Azure
-using SSH key authentication for secure remote access
-managing Linux services with systemctl
-understanding how Azure NSG rules affect connectivity and security
-hosting and updating a static webpage with Nginx
+- wrong username
+- incorrect SSH key path
+- SSH source IP not allowed in the NSG
+- VM not running
 
-## Future Improvements
+## What I Learned
 
-Add HTTPS with Let’s Encrypt
-Use a custom domain
-Automate deployment updates
-Add monitoring or logging
-Expand the hosted webpage into a fuller portfolio site
+- deploying and managing a Linux VM in Azure
+- using SSH key authentication for secure remote access
+- managing Linux services with systemctl
+- understanding how Azure NSG rules affect connectivity and security
+- hosting and updating a static webpage with Nginx
+
 
 ## About This Project
 
