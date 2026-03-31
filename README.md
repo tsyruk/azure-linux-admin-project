@@ -56,11 +56,48 @@ The goal was to build a small but realistic hands-on lab that shows basic server
 - Allowed HTTP for public web access
 - Restricted SSH to a trusted source IP to reduce exposure
 
-## Commands Used
+## Validation
 
-```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install nginx -y
-sudo systemctl status nginx
-sudo systemctl enable nginx
-sudo nano /var/www/html/index.html
+This project was validated by confirming:
+successful SSH access to the VM
+Nginx was active and enabled
+the custom HTML page loaded in a web browser
+HTTP traffic was allowed
+SSH access was restricted to a trusted IP
+
+## Troubleshooting
+
+Issue: Could not reach the hosted page
+Possible causes:
+HTTP was not allowed in the NSG
+
+Nginx was not running the public IP address changed or was entered incorrectly
+Issue: SSH connection failed
+Possible causes:
+wrong username
+incorrect SSH key path
+SSH source IP not allowed in the NSG
+VM not running
+What I Learned
+This project helped me practice:
+deploying and managing a Linux VM in Azure
+using SSH key authentication for secure remote access
+managing Linux services with systemctl
+understanding how Azure NSG rules affect connectivity and security
+hosting and updating a static webpage with Nginx
+
+## Future Improvements
+
+Add HTTPS with Let’s Encrypt
+Use a custom domain
+Automate deployment updates
+Add monitoring or logging
+Expand the hosted webpage into a fuller portfolio site
+
+## About This Project
+
+I built this project to strengthen my entry-level cloud and Linux administration skills through a practical hands-on lab. It reflects the kind of setup and troubleshooting tasks that appear in junior IT, support, and cloud-focused roles.
+
+## License
+
+This project was created for educational and portfolio purposes.
